@@ -2,6 +2,7 @@ tipoDeMedia = input("Digite um tipo de média G para Geométrica, P para Pondera
 vaolrX = int (input("Digite o valor de X: "))
 vaolrY = int (input("Digite o valor de y: "))
 vaolrZ = int (input("Digite o valor de z: "))
+
 if tipoDeMedia == "G":
     valorDaMedia = (vaolrX * vaolrY * vaolrZ)  ** (1/3)
     print(f"A Média Geométrica foi de {valorDaMedia}")
